@@ -74,6 +74,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
   Spike: {fileID: 0}
+  Shockwave: {fileID: 0}
+  circles: 0
 --- !u!212 &3315996929915303700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -339111275, guid: 0298f48ba1e27704a9f53520fc2a9827, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

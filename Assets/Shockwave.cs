@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shockwave : MonoBehaviour
 {
     float alpha;
-    public float lifetime = 1;
+    public float lifetime = 0.5f;
     private void Awake()
     {
         //StartCoroutine(Oscilate);
@@ -17,7 +17,7 @@ public class Shockwave : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        transform.localScale = new Vector3(0.4f, 0.4f * Mathf.Sin(alpha), 0.4f);
+        transform.localScale = new Vector3(0.2f, 0.2f * Mathf.Sin(alpha), 0.2f);
         alpha += Mathf.PI/lifetime * Time.deltaTime;
     }
 }
