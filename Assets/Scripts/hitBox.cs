@@ -24,6 +24,16 @@ public class hitBox : MonoBehaviour
             healthBar.SetHealth(health.currentHealh);
             timer = 1;
         }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Spike"))
+        {
+            health.currentHealh -= 1;
+            healthBar.SetHealth(health.currentHealh);
+        }
     }
 
     private void Update()

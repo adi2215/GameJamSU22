@@ -13,7 +13,7 @@ public class BasicEnemyAnimation : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (transform.localScale.y > 1.07) {
+        if (transform.localScale.y > 1.15) {
             flag = 0;
         }
         if (transform.localScale.y < 1.0) {
@@ -21,10 +21,10 @@ public class BasicEnemyAnimation : MonoBehaviour
         }
         if (flag == 1)
         {
-            transform.localScale += new Vector3(0, 1, 0) * (Time.deltaTime/10);
+            transform.localScale += new Vector3(0, 1, 0) * (Time.deltaTime/3);
         }else
         {
-            transform.localScale -= new Vector3(0, 1, 0) * (Time.deltaTime/10);
+            transform.localScale -= new Vector3(0, 1, 0) * (Time.deltaTime/3);
         }
     }
 }
