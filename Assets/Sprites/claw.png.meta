@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1986d24b688ee49aca2d594e2d9540dc
+guid: d0edd59348f4745f5982af8848d15b99
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,10 +108,10 @@ TextureImporter:
       name: claw_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 16
-        width: 14
-        height: 17
+        x: 19
+        y: 17
+        width: 8
+        height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47eb5f77150c147dbafbfaaf12598435
-      internalID: -666749069
+      spriteID: c98948cdec3d94d32a3f827baf6390c5
+      internalID: -204472126
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      claw_0: -666749069
+      claw_0: -204472126
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
