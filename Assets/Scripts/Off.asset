@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77dd5d06707a0a3478275ba369a3ed8d, type: 3}
-  m_Name: DataGame
+  m_Script: {fileID: 11500000, guid: f6eee7958b178354fb1a16cfdc918f5a, type: 3}
+  m_Name: Off
   m_EditorClassIdentifier: 
-  currentHealh: 10
-  maxHealth: 10
-  Money: 10
+  listeners: []

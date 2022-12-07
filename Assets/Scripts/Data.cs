@@ -8,4 +8,7 @@ public class Data : ScriptableObject
     public int currentHealh;
 
     public int maxHealth = 10;
+
+    public int Money = 10;
+
 }
