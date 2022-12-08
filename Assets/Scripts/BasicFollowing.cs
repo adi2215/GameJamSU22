@@ -8,6 +8,7 @@ public class BasicFollowing : MonoBehaviour
     private void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player");
+        //GetComponent<SpriteRenderer>().color = new Color()
     }
     private void Update()
     {
