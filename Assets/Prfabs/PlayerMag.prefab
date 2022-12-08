@@ -215,6 +215,7 @@ MonoBehaviour:
   moveSpeed: 10
   movementSpeed: 0
   FireBall_Speed: 35
+  db: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
   Stuff: {fileID: 4383284871240891445}
   Aim: {fileID: 4383284871121890389}
   firePrefab: {fileID: 7139247482606219717, guid: 21430246bf4a101428440c6a12e957cb, type: 3}
@@ -485,6 +486,8 @@ MonoBehaviour:
   health: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
   healthBar: {fileID: 0}
   timer: 0
+  Font: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1 &4383284871240891445
 GameObject:
   m_ObjectHideFlags: 0

@@ -14256,6 +14256,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4383284869677338006, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
+      propertyPath: db
+      value: 
+      objectReference: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
     - target: {fileID: 4383284869677338009, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_Name
       value: PlayerMag
