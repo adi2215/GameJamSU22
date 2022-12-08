@@ -8,17 +8,31 @@ public class Jeztyrnaq : MonoBehaviour
     public GameObject Spike;
     public GameObject Shockwave;
     public GameObject SpikeFolder;
-    public float lastTime = 10;
+    public GameObject HealthBar;
+    public float lastTime = 7;
     public int circles = 0;
-    int health = 10;
+    public int health = 15;
+    Animator Anim;
     private void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player");
         SpikeFolder = GameObject.Find("SpikeFolder");
-        SummonSpikes();
+        if (HealthBar == null)
+            HealthBar = GameObject.Find("JeztyrnaqHealth");
+        HealthBar.GetComponent<HealthBar>().SetMaxHealth(health);
+        Anim = GetComponent<Animator>();
     }
     private void Update()
     {
+        HealthBar.GetComponent<HealthBar>().SetHealth(health);
+        if (Target.transform.position.x < transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
         if (Time.timeSinceLevelLoad - lastTime > 10)
         {
             Teleport();
@@ -26,42 +40,55 @@ public class Jeztyrnaq : MonoBehaviour
     }
     void SummonSpikes()
     {
-        if (circles == 2)
+        
+        if (health > 0)
         {
-            return;
-        }
-        circles += 1;
-        float x = Target.transform.position.x;
-        float y = Target.transform.position.y;
-        for (int i = 0; i < 15; ++i)
-        {
-            float alpha = i * Mathf.PI * 2 / 15;
-            GameObject obj = Instantiate(Spike, new Vector3(x + 5 * Mathf.Cos(alpha), y + 5 * Mathf.Sin(alpha), 0), Quaternion.identity, SpikeFolder.transform);
-            obj.SetActive(true);
-            obj.GetComponent<SpikeControl>().Center = Target.transform.position;
+            if (circles == 2)
+            {
+                return;
+            }
+            circles += 1;
+            float x = Target.transform.position.x;
+            float y = Target.transform.position.y;
+            for (int i = 0; i < 15; ++i)
+            {
+                float alpha = i * Mathf.PI * 2 / 15;
+                GameObject obj = Instantiate(Spike, new Vector3(x + 5 * Mathf.Cos(alpha), y + 5 * Mathf.Sin(alpha), 0), Quaternion.identity, SpikeFolder.transform);
+                obj.SetActive(true);
+                obj.GetComponent<SpikeControl>().Center = Target.transform.position;
+            }
         }
     }
     IEnumerator SummonShockwaves()
     {
-        yield return new WaitForSeconds(1f);
-        Vector3 pos = transform.position;
-        Vector3 goal = Vector3.Normalize(Target.transform.position-pos)*2;
-        for (int i = 0; i < 20; ++i)
+
+        if (health > 0)
         {
-            pos += goal;
-            GameObject obj = Instantiate(Shockwave, pos, Quaternion.identity);
-            obj.SetActive(true);
-            yield return new WaitForSeconds(0.07f);
+            Anim.SetBool("IsAttack", true);
+            yield return new WaitForSeconds(1f);
+            Vector3 pos = transform.position;
+            Vector3 goal = Vector3.Normalize(Target.transform.position - pos) * 2;
+            for (int i = 0; i < 20; ++i)
+            {
+                pos += goal;
+                GameObject obj = Instantiate(Shockwave, pos, Quaternion.identity);
+                obj.SetActive(true);
+                yield return new WaitForSeconds(0.07f);
+            }
         }
+        Anim.SetBool("IsAttack", false);
     }
     void Teleport()
     {
-        lastTime = Time.timeSinceLevelLoad;
-        var angle = Random.Range(0, 2 * Mathf.PI);
-        var len = Random.Range(10, 15);
-        transform.position = Target.transform.position + new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0) * len;
-        Invoke(nameof(SummonSpikes), 2);
-        StartCoroutine(SummonShockwaves());
+        if (health > 0)
+        {
+            lastTime = Time.timeSinceLevelLoad;
+            var angle = Random.Range(0, 2 * Mathf.PI);
+            var len = Random.Range(10, 10);
+            transform.position = Target.transform.position + new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0) * len;
+            Invoke(nameof(SummonSpikes), 2);
+            StartCoroutine(SummonShockwaves());
+        }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -69,6 +96,8 @@ public class Jeztyrnaq : MonoBehaviour
         {
             Debug.Log(Time.realtimeSinceStartup);
             health -= 1;
+            HealthBar.GetComponent<HealthBar>().SetHealth(health);
+
             foreach (Transform child in SpikeFolder.transform)
             {
                 child.gameObject.GetComponent<SpikeControl>().decay = 1f;
