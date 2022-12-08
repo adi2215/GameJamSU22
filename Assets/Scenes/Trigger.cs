@@ -11,7 +11,7 @@ public class Trigger : MonoBehaviour
     {
         if (boss.trigger1)
         {
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 

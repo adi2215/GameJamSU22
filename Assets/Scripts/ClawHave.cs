@@ -8,9 +8,9 @@ public class ClawHave : MonoBehaviour
     void Start()
     {
         if (have.claw)
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
 
         if (have.morg)
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
     }
 }

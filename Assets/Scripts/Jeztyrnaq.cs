@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Jeztyrnaq : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Jeztyrnaq : MonoBehaviour
     public float lastTime = 7;
     public int circles = 0;
     public int health = 15;
+
+    public Data claw;
+
     Animator Anim;
     private void Start()
     {
@@ -106,6 +110,8 @@ public class Jeztyrnaq : MonoBehaviour
             circles = 0;
             if (health == 0)
             {
+                claw.claw = true;
+                SceneManager.LoadScene("SampleScene");
                 Destroy(gameObject);
             }
             Teleport();

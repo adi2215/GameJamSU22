@@ -11,7 +11,7 @@ public class Trigger2 : MonoBehaviour
     {
         if (boss.trigger2)
         {
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 
@@ -20,7 +20,7 @@ public class Trigger2 : MonoBehaviour
         if (col.gameObject.CompareTag("Player"))
         {
             boss.trigger2 = true;
-            SceneManager.LoadScene("Boss2");
+            SceneManager.LoadScene("SampleScene 3");
         }
     }
 }

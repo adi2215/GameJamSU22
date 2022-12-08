@@ -20,6 +20,11 @@ public class Data : ScriptableObject
 
     public bool trigger2 = false;
 
+    public Vector3 pos;
+
+    public Vector3 posCamera;
+
+    public bool StarEnd = false;
 
     public int Potion1 = 0;
     public int Potion2 = 0;

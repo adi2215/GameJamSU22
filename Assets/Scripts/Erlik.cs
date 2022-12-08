@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Erlik : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Erlik : MonoBehaviour
     public GameObject Mob;
     public GameObject HealthBar;
     public int health = 50;
+
+    public Data have;
     void Start()
     {
         HealthBar.GetComponent<HealthBar>().SetMaxHealth(health);
@@ -42,6 +45,8 @@ public class Erlik : MonoBehaviour
     }
     void Die()
     {
+        have.morg = true;
+        SceneManager.LoadScene("SampleScene");
         Destroy(gameObject);
     }
     void Update()

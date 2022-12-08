@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealh: 10
   maxHealth: 10
-  Money: 999840
-  Potion1: 7
-  Potion2: 21
-  Potion3: 16
+  Money: 10
+  claw: 0
+  morg: 0
+  trigger1: 0
+  trigger2: 0
+  pos: {x: 0, y: 0, z: 0}
+  posCamera: {x: 0, y: 0, z: -10}
+  Potion1: 0
+  Potion2: 0
+  Potion3: 0

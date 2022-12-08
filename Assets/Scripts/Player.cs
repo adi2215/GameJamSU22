@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     float ultSpeedTimer = 0;
     float ultShootTimer = 0;
 
+    bool Star = false;
+
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -190,6 +192,13 @@ public class Player : MonoBehaviour
         {
             fade = collision.GetComponent<FaderTree>();
             fade.FadeOut();
+        }
+
+        if (collision.tag == "Star")
+        {
+            collision.gameObject.SetActive(false);
+            Star = true;
+            db.StarEnd = true;
         }
     }
 
