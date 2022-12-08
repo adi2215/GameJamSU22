@@ -557,6 +557,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &613840529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4764218412969926078, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+  m_PrefabInstance: {fileID: 764950295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &764950295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,6 +663,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 957385207013711931, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574898620377849494, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574898620377849494, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -942,6 +955,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1788203468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4383284869677338009, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
+  m_PrefabInstance: {fileID: 816269358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1852072990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -957,25 +975,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Erlik
       objectReference: {fileID: 0}
-    - target: {fileID: 6873487452821192910, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
+    - target: {fileID: 6275497163502912824, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7329817347998861599, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7329817347998861599, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7329817347998861599, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7329817347998861599, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7329817347998861599, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1017,7 +1023,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8780983989879189011, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 1788203468}
+    - target: {fileID: 8780983989879189011, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 613840529}
+    m_RemovedComponents:
+    - {fileID: 2105839390935188390, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
 --- !u!1 &1979503142
 GameObject:

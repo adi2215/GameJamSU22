@@ -8,9 +8,11 @@ public class Erlik : MonoBehaviour
     public GameObject Wall;
     public GameObject Iceball;
     public GameObject Mob;
+    public GameObject HealthBar;
     public int health = 50;
     void Start()
     {
+        HealthBar.GetComponent<HealthBar>().SetMaxHealth(health);
         Target = GameObject.FindGameObjectWithTag("Player");
         //Shoot();
         StartCoroutine(Fight());
@@ -26,14 +28,16 @@ public class Erlik : MonoBehaviour
             Spawn();
             yield return new WaitForSeconds(10f);
         }
-        for (int i = 0; i < 19; ++i)
+        HealthBar.GetComponent<HealthBar>().SetMaxHealth(20);
+        health = 20;
+        while (health > 0)
         {
             var angle = Random.Range(0, 2 * Mathf.PI);
             var len = Random.Range(5, 10);
             GameObject obj = Instantiate(Iceball, transform.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * len, Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
         }
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(1f);
         Die();
     }
     void Die()
@@ -42,10 +46,7 @@ public class Erlik : MonoBehaviour
     }
     void Update()
     {
-        //float a = Vector3.SignedAngle(Target.transform.position - transform.position, Vector3.right, Vector3.up);
-            //transform.rotation = Quaternion.Euler(0, 0, a);
-        //transform.right = Target.transform.position - transform.position;
-        //Debug.Log(a);
+        HealthBar.GetComponent<HealthBar>().SetHealth(Mathf.Max(1, health));
         if (Target.transform.position.x < transform.position.x)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
