@@ -39,6 +39,7 @@ public class ShopControl : MonoBehaviour
     public void buyBlue()
     {
         moneyData.Money -= 3;
+        Debug.Log("Money");
     }
 
     public void buyGreen()

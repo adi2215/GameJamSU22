@@ -4,15 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tree
-<<<<<<< Updated upstream
+  - Lavka
   - Fireball
+  - Tree
   - Enemy
   - Spike
-=======
-  - Lavka
-  - Enemy
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
