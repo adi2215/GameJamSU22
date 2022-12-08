@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d067528ca0578714598ca6455dc1eb28
+guid: d8df3aadd2823864e877d47fe6353e5f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heroidle1_0
+      name: pheonix (1)3_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 100
-        width: 260
-        height: 300
+        x: 320
+        y: 520
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a709a416f6cfb744883dbfa4ec47642c
+      internalID: 1638952115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pheonix (1)3_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 140
+        width: 520
+        height: 370
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +140,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa78d30392fe2846ae9d0ecf3b75960
-      internalID: 1053040503
+      spriteID: c2816829ab27db547a2b1256c6e5b18b
+      internalID: -570051655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pheonix (1)3_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a439eea4de8e9349b5979cfe3909031
+      internalID: 876930120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pheonix (1)3_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 110
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab54a3f07fca0c409033b58358312f3
+      internalID: -1183198912
       vertices: []
       indices: 
       edges: []
@@ -136,7 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heroidle1_0: 1053040503
+      pheonix (1)3_3: -1183198912
+      pheonix (1)3_0: 1638952115
+      pheonix (1)3_1: -570051655
+      pheonix (1)3_2: 876930120
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

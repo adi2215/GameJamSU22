@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d067528ca0578714598ca6455dc1eb28
+guid: d8d3aab0b8ea16341b615d2866a9afff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heroidle1_0
+      name: herowalk2_0
       rect:
         serializedVersion: 2
-        x: 110
+        x: 130
         y: 100
-        width: 260
-        height: 300
+        width: 230
+        height: 270
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa78d30392fe2846ae9d0ecf3b75960
-      internalID: 1053040503
+      spriteID: 0016fb267d2c0f2439a7caca219e1dd5
+      internalID: 1064184714
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heroidle1_0: 1053040503
+      herowalk2_0: 1064184714
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

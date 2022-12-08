@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d067528ca0578714598ca6455dc1eb28
+guid: bad7c2329c440fb41bcef276d7da8913
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heroidle1_0
+      name: pheonix (1)1_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 100
-        width: 260
-        height: 300
+        x: 50
+        y: 120
+        width: 530
+        height: 420
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa78d30392fe2846ae9d0ecf3b75960
-      internalID: 1053040503
+      spriteID: b25ec701accda5c49a2544fc5f33bb3b
+      internalID: 93828765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pheonix (1)1_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 490
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b432ac17e8de0408434372d6373bcb
+      internalID: -1194015198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pheonix (1)1_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2498799046579744b788a427091bf9c
+      internalID: 904041034
       vertices: []
       indices: 
       edges: []
@@ -136,7 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heroidle1_0: 1053040503
+      pheonix (1)1_2: 904041034
+      pheonix (1)1_1: -1194015198
+      pheonix (1)1_0: 93828765
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
