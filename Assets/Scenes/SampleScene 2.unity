@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -197,7 +201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &8541033
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -301,7 +305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9349765
 Transform:
   m_ObjectHideFlags: 0
@@ -380,6 +384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -436,6 +444,10 @@ PrefabInstance:
     - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_Name
       value: MiniRock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
@@ -499,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &36363889
 Transform:
   m_ObjectHideFlags: 0
@@ -577,6 +589,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -770,6 +786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -832,9 +852,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniRock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_LocalPosition.x
@@ -894,7 +918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &112226697
 Transform:
   m_ObjectHideFlags: 0
@@ -1046,6 +1070,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1001 &149225819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 333469896378416847, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_Name
+      value: Jeztyrnaq
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154580592051788590, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 300144133}
+    - target: {fileID: 5154580592051788590, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 197274309}
+    - target: {fileID: 5154580592051788590, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: SpikeFolder
+      value: 
+      objectReference: {fileID: 1331877125}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -135.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079478905237950064, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
 --- !u!1 &150634233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1221,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155713252
 GameObject:
@@ -1219,6 +1312,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -1372,7 +1469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &195225263
 Transform:
   m_ObjectHideFlags: 0
@@ -1483,7 +1580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &197267502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1549,7 +1646,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &197267504
 CircleCollider2D:
@@ -1567,6 +1664,11 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 1.4}
   serializedVersion: 2
   m_Radius: 1.6
+--- !u!1 &197274309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2827126794181845698, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+  m_PrefabInstance: {fileID: 478185211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &198350220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1577,6 +1679,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -1640,7 +1746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &200430077
 Transform:
   m_ObjectHideFlags: 0
@@ -1724,7 +1830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &205997291
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1803,6 +1909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1870,7 +1980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &221299240
 Transform:
   m_ObjectHideFlags: 0
@@ -2033,6 +2143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2089,6 +2203,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -2147,9 +2265,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2210,7 +2332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &295928624
 Transform:
   m_ObjectHideFlags: 0
@@ -2320,7 +2442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299459985
 Transform:
   m_ObjectHideFlags: 0
@@ -2404,6 +2526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -2467,7 +2593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &310715943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2559,7 +2685,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &317254681
 GameObject:
@@ -2578,7 +2704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &317254682
 Transform:
   m_ObjectHideFlags: 0
@@ -2688,7 +2814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &317575683
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2767,6 +2893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2830,7 +2960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &323056238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3161,9 +3291,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb
       objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3223,9 +3357,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lights
       objectReference: {fileID: 0}
+    - target: {fileID: 1781653812858102424, guid: 83929ff7170934147931ef5cfaeeee4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1781653812858102427, guid: 83929ff7170934147931ef5cfaeeee4f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1781653812858102427, guid: 83929ff7170934147931ef5cfaeeee4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4142,7 +4280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &477901206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4368,7 +4506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 957385207013711931, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 957385207013711931, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4442,6 +4580,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2827126794181845698, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255686785705510318, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234296604499304898, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4454,9 +4600,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6808684278478146151, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808684278478146151, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6933523179258208827, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559630854110946672, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9045161457425786432, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_fontStyle
@@ -4485,6 +4643,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -4553,7 +4715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &511593532
 Transform:
   m_ObjectHideFlags: 0
@@ -4696,7 +4858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &515536838
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4775,6 +4937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigRock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4837,7 +5003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &519030407
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4960,7 +5126,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4984,7 +5150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -120, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5078,7 +5244,7 @@ Transform:
   - {fileID: 912982935}
   - {fileID: 477901207}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &539350425
 GameObject:
@@ -5096,7 +5262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &539350426
 Transform:
   m_ObjectHideFlags: 0
@@ -5175,6 +5341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5237,7 +5407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &547949482
 Transform:
   m_ObjectHideFlags: 0
@@ -5322,7 +5492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &551016750
 Transform:
   m_ObjectHideFlags: 0
@@ -5488,6 +5658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -5550,7 +5724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &584787209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5634,7 +5808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &591918633
 Transform:
   m_ObjectHideFlags: 0
@@ -5719,7 +5893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &598081826
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5785,7 +5959,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &598081828
 CircleCollider2D:
@@ -5819,7 +5993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &609024393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5898,6 +6072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5954,6 +6132,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -6016,6 +6198,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -6080,7 +6266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &624147336
 Transform:
   m_ObjectHideFlags: 0
@@ -6191,7 +6377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &633283409
 Transform:
   m_ObjectHideFlags: 0
@@ -6295,6 +6481,10 @@ PrefabInstance:
     - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_Name
       value: MiniRock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
@@ -6538,6 +6728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -6601,7 +6795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &683484004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6693,7 +6887,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &692368659 stripped
 Transform:
@@ -6717,7 +6911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &704564857
 Transform:
   m_ObjectHideFlags: 0
@@ -6877,7 +7071,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720254915
 GameObject:
@@ -6895,7 +7089,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &720254916
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6980,7 +7174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &722490643
 Transform:
   m_ObjectHideFlags: 0
@@ -7085,6 +7279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -7153,7 +7351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &725966572
 Transform:
   m_ObjectHideFlags: 0
@@ -7296,6 +7494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigRock
       objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7364,7 +7566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &746439963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7430,7 +7632,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &746439965
 CircleCollider2D:
@@ -7465,7 +7667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &750715085
 Transform:
   m_ObjectHideFlags: 0
@@ -7575,7 +7777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &751049025
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7660,7 +7862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &756561991
 Transform:
   m_ObjectHideFlags: 0
@@ -7770,7 +7972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &772229528
 Transform:
   m_ObjectHideFlags: 0
@@ -8128,7 +8330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &802015687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8194,7 +8396,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &802015689
 CircleCollider2D:
@@ -8229,7 +8431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &807368127
 Transform:
   m_ObjectHideFlags: 0
@@ -8338,6 +8540,10 @@ PrefabInstance:
     - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_Name
       value: Tomb (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
@@ -8542,7 +8748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &851425544
 Transform:
   m_ObjectHideFlags: 0
@@ -8647,6 +8853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8709,7 +8919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &852975113
 Transform:
   m_ObjectHideFlags: 0
@@ -8812,7 +9022,7 @@ Transform:
   - {fileID: 338112126}
   - {fileID: 1841359537}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860120219
 GameObject:
@@ -8830,7 +9040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &860120220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8896,7 +9106,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &888114757
 PrefabInstance:
@@ -8908,6 +9118,10 @@ PrefabInstance:
     - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_Name
       value: MiniRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
@@ -8972,7 +9186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &891217279
 Transform:
   m_ObjectHideFlags: 0
@@ -9082,7 +9296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &911518053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9170,7 +9384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &912982934
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9336,7 +9550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &929423264
 Transform:
   m_ObjectHideFlags: 0
@@ -9504,6 +9718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniRock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9633,7 +9851,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &947797507
 CircleCollider2D:
@@ -9667,7 +9885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &958757894
 Transform:
   m_ObjectHideFlags: 0
@@ -9746,6 +9964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -9809,7 +10031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &968111455
 Transform:
   m_ObjectHideFlags: 0
@@ -9919,9 +10141,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9981,7 +10207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1011932423
 Transform:
   m_ObjectHideFlags: 0
@@ -10060,6 +10286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10121,6 +10351,10 @@ PrefabInstance:
     - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_Name
       value: MiniRock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
@@ -10360,7 +10594,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1114414808
 CircleCollider2D:
@@ -10388,6 +10622,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -10457,7 +10695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1142315616
 Transform:
   m_ObjectHideFlags: 0
@@ -10567,7 +10805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1152107740
 Transform:
   m_ObjectHideFlags: 0
@@ -10646,6 +10884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -10708,7 +10950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1196096901
 Transform:
   m_ObjectHideFlags: 0
@@ -10793,7 +11035,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1225089258
 Transform:
   m_ObjectHideFlags: 0
@@ -10906,9 +11148,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMag
       objectReference: {fileID: 0}
+    - target: {fileID: 4383284869677338009, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4383284869677338011, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4383284869677338011, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10916,7 +11162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4383284869677338011, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 4383284869677338011, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11183,7 +11429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1305697403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11275,7 +11521,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1315222523
 PrefabInstance:
@@ -11288,9 +11534,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11350,7 +11600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1321294596
 Transform:
   m_ObjectHideFlags: 0
@@ -11418,6 +11668,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1331877125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1331877126}
+  m_Layer: 0
+  m_Name: SpikeFolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1331877126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331877125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1333856147
 GameObject:
   m_ObjectHideFlags: 0
@@ -11434,7 +11715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1333856148
 Transform:
   m_ObjectHideFlags: 0
@@ -11539,7 +11820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1369987347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11631,7 +11912,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370417518
 GameObject:
@@ -11649,7 +11930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1370417519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11733,7 +12014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1389829321
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11799,7 +12080,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395033976
 GameObject:
@@ -11817,7 +12098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1395033977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11901,7 +12182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1400284856
 Transform:
   m_ObjectHideFlags: 0
@@ -11990,7 +12271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1411228930
 Transform:
   m_ObjectHideFlags: 0
@@ -12158,6 +12439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12219,6 +12504,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -12282,7 +12571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1458537183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12560,6 +12849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigRock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12623,7 +12916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1520014586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12689,7 +12982,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1520014588
 CircleCollider2D:
@@ -12717,6 +13010,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -12773,7 +13070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2242543827172067860, guid: f4ba64597000444da981e4385659a4f9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2242543827172067860, guid: f4ba64597000444da981e4385659a4f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12827,6 +13124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phoenix
       objectReference: {fileID: 0}
+    - target: {fileID: 5641064459525112474, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4ba64597000444da981e4385659a4f9, type: 3}
 --- !u!1001 &1539777860
@@ -12840,9 +13141,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 626463892758374092, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2039803260382336354, guid: 18a1d3f056d0d41dfa7351f277540eb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12903,7 +13208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1552968644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13014,7 +13319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1567792573
 Transform:
   m_ObjectHideFlags: 0
@@ -13119,6 +13424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -13175,7 +13484,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1589911796}
   - component: {fileID: 1589911795}
-  - component: {fileID: 1589911794}
   m_Layer: 0
   m_Name: TriggerBoss1
   m_TagString: Untagged
@@ -13183,18 +13491,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1589911794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589911793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d929f50e2563cd47b577d5a4b420296, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1589911795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13205,7 +13501,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.17840105, y: 1.3012772}
@@ -13234,7 +13530,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1596262158
 GameObject:
@@ -13252,7 +13548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1596262159
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13426,6 +13722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13488,7 +13788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1619345828
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13573,7 +13873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1623410012
 Transform:
   m_ObjectHideFlags: 0
@@ -13688,6 +13988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -13756,7 +14060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1650751315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13822,7 +14126,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1650751317
 CircleCollider2D:
@@ -13856,7 +14160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1651330486
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13933,7 +14237,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6282014999346937225, guid: f50fad7ff58abc64291f3c6281c752ad, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6282014999346937225, guid: f50fad7ff58abc64291f3c6281c752ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13997,6 +14301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -14053,6 +14361,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -14257,7 +14569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1724261415
 Transform:
   m_ObjectHideFlags: 0
@@ -14367,7 +14679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1726267498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14433,7 +14745,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1738186907
 GameObject:
@@ -14451,7 +14763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1738186908
 Transform:
   m_ObjectHideFlags: 0
@@ -14579,6 +14891,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -14713,6 +15029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigRock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -14775,7 +15095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1803911644
 Transform:
   m_ObjectHideFlags: 0
@@ -14860,7 +15180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1808631303
 Transform:
   m_ObjectHideFlags: 0
@@ -14970,7 +15290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1818896526
 Transform:
   m_ObjectHideFlags: 0
@@ -15095,7 +15415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1879074207
 Transform:
   m_ObjectHideFlags: 0
@@ -15269,7 +15589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1902197527
 Transform:
   m_ObjectHideFlags: 0
@@ -15374,6 +15694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniRock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -15447,7 +15771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1914046857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15557,6 +15881,10 @@ PrefabInstance:
     - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_Name
       value: Tree (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 20076714302588548, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20076714302588602, guid: 144744269d64a5e478e854558d1c6e87, type: 3}
       propertyPath: m_RootOrder
@@ -15756,7 +16084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1958920967
 Transform:
   m_ObjectHideFlags: 0
@@ -15867,7 +16195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1959529327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15933,7 +16261,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1959529329
 CircleCollider2D:
@@ -15967,7 +16295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1975088680
 Transform:
   m_ObjectHideFlags: 0
@@ -16185,7 +16513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1982227432
 Transform:
   m_ObjectHideFlags: 0
@@ -16380,7 +16708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2019673652
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16571,6 +16899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniRock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5645690547741160128, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5645690547741160129, guid: 165e8c2b1fb4f8c44bf9e795af4eb408, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -16634,7 +16966,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2043052293
 Transform:
   m_ObjectHideFlags: 0
@@ -16744,7 +17076,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2055913961
 Transform:
   m_ObjectHideFlags: 0
@@ -16830,7 +17162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &2066563948
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16928,7 +17260,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2076096337
 PrefabInstance:
@@ -16940,6 +17272,10 @@ PrefabInstance:
     - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_Name
       value: BigRock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752348509790448458, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8752348509790448459, guid: 055233eecb1f2ee489a50035e719b6be, type: 3}
       propertyPath: m_RootOrder
@@ -17004,7 +17340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2082515365
 Transform:
   m_ObjectHideFlags: 0
@@ -17114,7 +17450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2098397932
 Transform:
   m_ObjectHideFlags: 0
