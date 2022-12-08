@@ -8,7 +8,7 @@ public class Jeztyrnaq : MonoBehaviour
     public GameObject Spike;
     public GameObject Shockwave;
     public GameObject SpikeFolder;
-    public float lastTime = 0;
+    public float lastTime = 10;
     public int circles = 0;
     int health = 10;
     private void Start()
@@ -65,17 +65,21 @@ public class Jeztyrnaq : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(Time.realtimeSinceStartup);
-        health -= 1;
-        foreach (Transform child in SpikeFolder.transform)
+        if (col.CompareTag("Fireball") || col.CompareTag("Player"))
         {
-            child.gameObject.GetComponent<SpikeControl>().decay = 1f;
+            Debug.Log(Time.realtimeSinceStartup);
+            health -= 1;
+            foreach (Transform child in SpikeFolder.transform)
+            {
+                child.gameObject.GetComponent<SpikeControl>().decay = 1f;
+            }
+            circles = 0;
+            if (health == 0)
+            {
+                Destroy(gameObject);
+            }
+            Teleport();
         }
-        circles = 0;
-        if (health == 0)
-        {
-            Destroy(gameObject);
-        }
-        Teleport();
+            
     }
 }

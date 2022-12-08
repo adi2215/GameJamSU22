@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &3354879174830606390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Center: {x: 0, y: 0, z: 0}
+  decay: 0
+  rise: 0
 --- !u!61 &2060978956000878461
 BoxCollider2D:
   m_ObjectHideFlags: 0

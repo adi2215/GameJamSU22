@@ -73,8 +73,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  Spike: {fileID: 0}
-  Shockwave: {fileID: 0}
+  Spike: {fileID: 550257585377736238, guid: e4c2e5b1d0f4a463e8038c7872682081, type: 3}
+  Shockwave: {fileID: 101792270331666346, guid: 9e12513eca7f74c57bdc88ba46380c1b, type: 3}
+  SpikeFolder: {fileID: 0}
+  lastTime: 0
   circles: 0
 --- !u!212 &3315996929915303700
 SpriteRenderer:
@@ -127,4 +129,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
