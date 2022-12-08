@@ -39,16 +39,19 @@ public class ShopControl : MonoBehaviour
     public void buyBlue()
     {
         moneyData.Money -= 3;
+        moneyData.Potion2 += 1;
         Debug.Log("Money");
     }
 
     public void buyGreen()
     {
+        moneyData.Potion3 += 1;
         moneyData.Money -= 3;
     }
 
     public void buyPink()
     {
+        moneyData.Potion1 += 1;
         moneyData.Money -= 3;
     }
 }

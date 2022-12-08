@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     public float movementSpeed;
     public float FireBall_Speed = 1.0f;
     private Vector2 movementInput;
+    public Data db;
+    float ultSpeedTimer = 0;
+    float ultShootTimer = 0;
 
 
     private Rigidbody2D rb;
@@ -61,7 +64,6 @@ public class Player : MonoBehaviour
             tr.emitting = false;
             ProcessInputs();
             GameObject.Find("HitBox").GetComponent<BoxCollider2D>().enabled = true;
-            //GetComponent<CapsuleCollider2D>().enabled = true;
         }
         else
         {
@@ -100,6 +102,23 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        ultShootTimer -= Time.deltaTime;
+        ultSpeedTimer -= Time.deltaTime;
+        if (ultSpeedTimer > 0)
+        {
+            moveSpeed = 20f;
+        } else
+        {
+            moveSpeed = 10f;
+        }
+        if (ultShootTimer > 0)
+        {
+            startTimeShots = 0.01f;
+        }
+        else
+        {
+            startTimeShots = 0.35f;
+        }
         if (timeShots <= 0)
         {
             if (Input.GetButtonDown("Fire1"))
@@ -117,15 +136,28 @@ public class Player : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(1))
             {
-                //Stuff.GetComponent<Animator>().SetBool("Dash", true);
-                //Invoke(nameof(Dash), 0.1f);
                 Dash();
+            } else
+            {
+                if (Input.GetKeyDown(KeyCode.Alpha1) && db.Potion1 > -10)
+                {
+                    db.Potion1 -= 1;
+                    db.currentHealh = db.maxHealth;
+                    Debug.Log("HEAL" + db.currentHealh.ToString());
+                }
+                if (Input.GetKeyDown(KeyCode.Alpha2) && db.Potion2 > -10)
+                {
+                    db.Potion2 -= 1;
+                    ultSpeedTimer = 5f;
+                    //db.currentHealh = db.maxHealth;
+                }
+                if (Input.GetKeyDown(KeyCode.Alpha3) && db.Potion3 > -10)
+                {
+                    db.Potion3 -= 1;
+                    ultShootTimer = 5f;
+                    //db.currentHealh = db.maxHealth;
+                }
             }
-        }
-        else
-        {
-            //Stuff.GetComponent<Animator>().SetBool("AttackStuff", false);
-            //dashCount -= Time.deltaTime;
         }
     }
 

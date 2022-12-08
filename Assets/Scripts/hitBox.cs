@@ -40,12 +40,13 @@ public class hitBox : MonoBehaviour
         if (col.gameObject.CompareTag("Spike"))
         {
             health.currentHealh -= 1;
-            healthBar.SetHealth(health.currentHealh);
         }
     }
 
     private void Update()
     {
+
+        healthBar.SetHealth(health.currentHealh);
         if (timer > 0)
         {
             timer -= Time.deltaTime;

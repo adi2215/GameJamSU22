@@ -11,6 +11,7 @@ public class Data : ScriptableObject
 
     public int Money = 10;
 
+
     public bool claw = false;
 
     public bool morg = false;
@@ -18,5 +19,10 @@ public class Data : ScriptableObject
     public bool trigger1 = false;
 
     public bool trigger2 = false;
+
+
+    public int Potion1 = 0;
+    public int Potion2 = 0;
+    public int Potion3 = 0;
 
 }

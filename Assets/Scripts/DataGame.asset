@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealh: 10
   maxHealth: 10
-  Money: 10
+  Money: 999840
+  Potion1: 7
+  Potion2: 21
+  Potion3: 16
