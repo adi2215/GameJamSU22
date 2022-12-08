@@ -24,5 +24,5 @@ public class Data : ScriptableObject
     public int Potion1 = 0;
     public int Potion2 = 0;
     public int Potion3 = 0;
-
+    public int Progress = 0;
 }

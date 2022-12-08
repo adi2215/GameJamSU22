@@ -15,6 +15,11 @@ MonoBehaviour:
   currentHealh: 10
   maxHealth: 10
   Money: 999840
-  Potion1: 7
-  Potion2: 21
-  Potion3: 16
+  claw: 0
+  morg: 0
+  trigger1: 0
+  trigger2: 0
+  Potion1: 6
+  Potion2: 17
+  Potion3: 15
+  Progress: 3
