@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
 
             dashCount -= Time.deltaTime;
             Debug.Log(dashCount);
-            rb.MovePosition(rb.position + dashDirection * 20 * Mathf.Cos((timeDash-dashCount)/timeDash*Mathf.PI/2) * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + dashDirection * 30 * Mathf.Cos((timeDash-dashCount)/timeDash*Mathf.PI/2) * Time.fixedDeltaTime);
         }
         AimWork();
         //Debug.Log(shooTing.x);

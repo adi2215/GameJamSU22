@@ -13,6 +13,13 @@ public class BasicFollowing : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, Target.transform.position) < 20) {
             transform.position += (Target.transform.position - transform.position) * (Time.deltaTime* 0.7f);
+            if (Target.transform.position.x < transform.position.x)
+            {
+                transform.rotation = new Quaternion(0, -Mathf.PI, 0, 0);
+            } else
+            {
+                transform.rotation = new Quaternion(0,  0, 0, 0);
+            }
         }
     }
 }
