@@ -56,13 +56,14 @@ public class Player : MonoBehaviour
         {
             ProcessInputs();
             GameObject.Find("HitBox").GetComponent<BoxCollider2D>().enabled = true;
+            GetComponent<CapsuleCollider2D>().enabled = true;
         }
         else
         {
 
             dashCount -= Time.deltaTime;
             Debug.Log(dashCount);
-            rb.MovePosition(rb.position + dashDirection * 20 * Mathf.Cos((timeDash-dashCount)/timeDash*Mathf.PI/2) * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + dashDirection * 30 * Mathf.Cos((timeDash-dashCount)/timeDash*Mathf.PI/2) * Time.fixedDeltaTime);
         }
         AimWork();
         //Debug.Log(shooTing.x);
@@ -109,7 +110,8 @@ public class Player : MonoBehaviour
             if (Input.GetMouseButtonDown(1))
             {
                 //Stuff.GetComponent<Animator>().SetBool("Dash", true);
-                Invoke(nameof(Dash), 0.1f);
+                //Invoke(nameof(Dash), 0.1f);
+                Dash();
             }
         }
         else
@@ -176,12 +178,13 @@ public class Player : MonoBehaviour
         fireBall.GetComponent<Rigidbody2D>().AddForce(LocalshooTing * FireBall_Speed, ForceMode2D.Impulse);
         float rotZ = Mathf.Atan2(LocalshooTing.y, LocalshooTing.x) * Mathf.Rad2Deg;
         fireBall.transform.rotation = Quaternion.Euler(0, 0, rotZ);
-        Destroy(fireBall, 3.0f);
+        //Destroy(fireBall, 3.0f);
     }
     public void Dash()
     {
         dashDirection = LocalshooTing;
-        GameObject.Find("HitBox").GetComponent<BoxCollider2D>().enabled = false;
+        transform.GetChild(3).GetComponent<BoxCollider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         dashCount = timeDash;
         //gameObject.GetComponent<Rigidbody2D>().AddForce(LocalshooTing * 10, ForceMode2D.s );
         //gameObject.GetComponent<Rigidbody2D>().AddForce(LocalshooTing * 10, ForceMode2D.Force);

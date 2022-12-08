@@ -9,6 +9,8 @@ TagManager:
   - Tree
   - Enemy
   - Spike
+  - Ghost
+  - Iceball
   layers:
   - Default
   - TransparentFX

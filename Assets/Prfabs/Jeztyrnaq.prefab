@@ -73,7 +73,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  Spike: {fileID: 0}
+  Spike: {fileID: 550257585377736238, guid: e4c2e5b1d0f4a463e8038c7872682081, type: 3}
+  Shockwave: {fileID: 101792270331666346, guid: 9e12513eca7f74c57bdc88ba46380c1b, type: 3}
+  SpikeFolder: {fileID: 0}
+  lastTime: 0
+  circles: 0
 --- !u!212 &3315996929915303700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,7 +118,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -339111275, guid: 0298f48ba1e27704a9f53520fc2a9827, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -125,4 +129,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
