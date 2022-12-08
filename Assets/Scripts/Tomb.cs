@@ -19,11 +19,11 @@ public class Tomb : MonoBehaviour
     void Update()
     {
         cool -= Time.deltaTime;
-        if (Vector3.Distance(transform.position, Target.transform.position) < 20)
-        {
-            active = true;
-        }
-        if (active)
+        // if ()
+        // {
+        //     active = true;
+        // }
+        if (Vector3.Distance(transform.position, Target.transform.position) < 10)
         {
             if (cool < 0 && capacity > 0 && transform.childCount == 0)
             {

@@ -10,10 +10,17 @@ public class hitBox : MonoBehaviour
 
     public float timer = 0;
 
+    public GameObject Font;
+
+    [SerializeField] private Rigidbody2D rb;
+
+    bool die = false;
+
     private void Start()
     {
         health.currentHealh = health.maxHealth;
         healthBar.SetMaxHealth(health.maxHealth);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerStay2D(Collider2D col)
@@ -43,5 +50,18 @@ public class hitBox : MonoBehaviour
         {
             timer -= Time.deltaTime;
         }
+
+        if (health.currentHealh <= 0 && die)
+        {
+            Die();
+        }
+        
+    }
+
+    private void Die()
+    {
+        die = true;
+        Font.SetActive(true);
+        rb.bodyType = RigidbodyType2D.Static;
     }
 }
