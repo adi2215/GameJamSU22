@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class Erlik : MonoBehaviour
 {
-    GameObject Target;
-    GameObject Wall;
-    GameObject Iceball;
-    GameObject Mob;
+    public GameObject Target;
+    public GameObject Wall;
+    public GameObject Iceball;
+    public GameObject Mob;
     public int health = 50;
     void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player");
+        //Shoot();
         StartCoroutine(Fight());
     }
     IEnumerator Fight()
     {
+        //yield return new WaitForSeconds(10f);
+        //Spawn();
+        yield return new WaitForSeconds(0.5f);
         while (health > 0) {
             Shoot();
-            yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(8f);
             Spawn();
             yield return new WaitForSeconds(10f);
         }
@@ -34,27 +38,35 @@ public class Erlik : MonoBehaviour
     }
     void Die()
     {
-
+        Destroy(gameObject);
     }
     void Update()
     {
-        
+        //float a = Vector3.SignedAngle(Target.transform.position - transform.position, Vector3.right, Vector3.up);
+            //transform.rotation = Quaternion.Euler(0, 0, a);
+        //transform.right = Target.transform.position - transform.position;
+        //Debug.Log(a);
+        if (Target.transform.position.x < transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
     }
-
     void Shoot()
     {
-        float x = Target.transform.position.x;
-        float y = Target.transform.position.y;
-        for (int i = 0; i < 3; ++i)
+        for (int i = 0; i < 4; ++i)
         {
-            float alpha = i * Mathf.PI * 2 / 3;
-            Instantiate(Iceball, Target.transform.position + new Vector3(Mathf.Cos(alpha), Mathf.Sin(alpha), 0) * 5, Quaternion.identity);
+            float alpha = i * Mathf.PI * 2 / 4;
+            Instantiate(Iceball, Target.transform.position + new Vector3(Mathf.Cos(alpha), Mathf.Sin(alpha), 0) * 10, Quaternion.identity);
         }
-        for (int i = 0; i < 36; ++i)
+        for (int i = 0; i < 15; ++i)
         {
-            float alpha = i * Mathf.PI * 2 / 36;
+            float alpha = i * Mathf.PI * 2 / 15;
             GameObject obj = Instantiate(Wall, transform.position + new Vector3(Mathf.Cos(alpha), Mathf.Sin(alpha), 0) * 5, Quaternion.identity);
-            //obj.GetComponent<WallControl>().block = true;
+            obj.transform.localScale = new Vector3(15, 0, 15);
         }
     }
     void Spawn()
@@ -69,7 +81,15 @@ public class Erlik : MonoBehaviour
             var angle = Random.Range(0, 2 * Mathf.PI);
             var len = Random.Range(5, 10);
             GameObject obj = Instantiate(Mob, transform.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * len, Quaternion.identity);
+            obj.transform.localScale = new Vector3(5, 5, 5);
             yield return new WaitForSeconds(0.5f);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Fireball"))
+        {
+            health -= 1;
         }
     }
 }

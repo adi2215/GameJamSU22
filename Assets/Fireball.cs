@@ -27,4 +27,12 @@ public class Fireball : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Enemy"))
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            Destroy(gameObject);
+        }
+    }
 }

@@ -18,7 +18,7 @@ public class hitBox : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D col)
     {
-        if ((col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Ghost")) && timer <= 0)
+        if ((col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Ghost") || col.gameObject.CompareTag("Iceball")) && timer <= 0)
         {
             health.currentHealh -= 1;
             healthBar.SetHealth(health.currentHealh);

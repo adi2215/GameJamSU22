@@ -37,4 +37,12 @@ public class Iceball : MonoBehaviour
         GetComponent<Rigidbody2D>().angularVelocity = -angularSpeed * rotateAmount;
         GetComponent<Rigidbody2D>().velocity = transform.up * movementSpeed;
     }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            Destroy(gameObject);
+        }
+    }
 }
