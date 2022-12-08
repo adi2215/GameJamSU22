@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Trigger : MonoBehaviour
+public class Trigger2 : MonoBehaviour
 {
     public Data boss;
 
     void Start()
     {
-        if (boss.trigger1)
+        if (boss.trigger2)
         {
             gameObject.SetActive(true);
         }
@@ -19,8 +19,8 @@ public class Trigger : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            boss.trigger1 = true;
-            SceneManager.LoadScene("SampleScene 2");
+            boss.trigger2 = true;
+            SceneManager.LoadScene("Boss2");
         }
     }
 }

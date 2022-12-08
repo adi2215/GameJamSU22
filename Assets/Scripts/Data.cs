@@ -11,4 +11,12 @@ public class Data : ScriptableObject
 
     public int Money = 10;
 
+    public bool claw = false;
+
+    public bool morg = false;
+
+    public bool trigger1 = false;
+
+    public bool trigger2 = false;
+
 }
