@@ -76,8 +76,10 @@ MonoBehaviour:
   Spike: {fileID: 550257585377736238, guid: e4c2e5b1d0f4a463e8038c7872682081, type: 3}
   Shockwave: {fileID: 101792270331666346, guid: 9e12513eca7f74c57bdc88ba46380c1b, type: 3}
   SpikeFolder: {fileID: 0}
-  lastTime: 0
+  HealthBar: {fileID: 0}
+  lastTime: 7
   circles: 0
+  health: 15
 --- !u!212 &3315996929915303700
 SpriteRenderer:
   m_ObjectHideFlags: 0

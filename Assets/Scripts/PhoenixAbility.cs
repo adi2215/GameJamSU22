@@ -17,6 +17,14 @@ public class PhoenixAbility : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Target.transform.position.x < transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
         cool -= Time.deltaTime;
         if (cool < 0 && Input.GetKeyDown(KeyCode.E))
         {
