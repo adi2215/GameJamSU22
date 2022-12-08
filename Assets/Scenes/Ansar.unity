@@ -697,6 +697,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1870731076495575089, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4383284869677338005, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: m_Direction
       value: 1
@@ -765,6 +769,10 @@ PrefabInstance:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 1979503143}
+    - target: {fileID: 4383284871121890384, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
+      propertyPath: cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d53372e1f4d2c646b839ca6912aed26, type: 3}
     - target: {fileID: 4383284871190365854, guid: 5aeaad7a57427ba429b650bc1c530a80, type: 3}
       propertyPath: healthBar
       value: 

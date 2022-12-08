@@ -42,11 +42,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -103,282 +103,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: pheonix (1)6_0
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 120
-        width: 280
-        height: 390
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 496914f454ec37c409135e4009b15e37
-      internalID: 1250438185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_1
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 320
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbcfdd07aaa3e2943ba6d1a2d8fa80d1
-      internalID: 2050015833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_2
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 310
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247afe20f2f47a844b01d7e86b2c88d5
-      internalID: -46411209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_3
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 280
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92f7ed3cff1de2341a22da625fa72651
-      internalID: -701245038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_4
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 260
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc6272f0ab431ba48a9e4a6942c3eb7f
-      internalID: -490519391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_5
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 260
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6990f4b0a9d1aa34cac21b1ddde6a1e3
-      internalID: -1792367771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_6
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 260
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1f92314dfab456489e733d2f0917523
-      internalID: 1966741941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_7
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 220
-        width: 10
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed3ff0fe445f7754cb1f6f5da41cc58e
-      internalID: 1644188708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_8
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 220
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4213e665b01e254aaa43dec379a8afe
-      internalID: 819941751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_9
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 160
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd557c5a0cd04914f8433d822426ea64
-      internalID: 43243541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_10
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 120
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 088a8fff81a183a4ca225f25a65b3873
-      internalID: 1936915822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pheonix (1)6_11
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 80
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a26bc4c9f165c141ac3ad3d6cddd8eb
-      internalID: -2067887574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      pheonix (1)6_2: -46411209
-      pheonix (1)6_9: 43243541
-      pheonix (1)6_8: 819941751
-      pheonix (1)6_4: -490519391
-      pheonix (1)6_6: 1966741941
-      pheonix (1)6_11: -2067887574
-      pheonix (1)6_5: -1792367771
-      pheonix (1)6_7: 1644188708
-      pheonix (1)6_0: 1250438185
-      pheonix (1)6_3: -701245038
-      pheonix (1)6_1: 2050015833
-      pheonix (1)6_10: 1936915822
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

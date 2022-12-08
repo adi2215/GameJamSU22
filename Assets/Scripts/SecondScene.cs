@@ -7,6 +7,6 @@ public class SecondScene : MonoBehaviour
 {
     void Start()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SampleScene 1");
     }
 }

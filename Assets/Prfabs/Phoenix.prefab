@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2242543827172067860}
   - component: {fileID: 5354713285461780544}
   - component: {fileID: 3388450248800906223}
+  - component: {fileID: 7576220667301720146}
   m_Layer: 0
   m_Name: Phoenix
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5641064459525112474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,3 +100,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldown: 20
   Particle: {fileID: 7139247482606219717, guid: 21430246bf4a101428440c6a12e957cb, type: 3}
+--- !u!95 &7576220667301720146
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5641064459525112474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3907c8a8cf7e5fc42bf59f5539e1f562, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

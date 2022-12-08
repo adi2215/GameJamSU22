@@ -41,7 +41,9 @@ public class Player : MonoBehaviour
 
     private float reverse = 1f;
 
+    [SerializeField] private TrailRenderer tr;
 
+    bool DashCheck;
 
     void Start()
     {
@@ -54,13 +56,16 @@ public class Player : MonoBehaviour
     {
         if (dashCount <= 0)
         {
+            DashCheck = false;
+            tr.emitting = false;
             ProcessInputs();
             GameObject.Find("HitBox").GetComponent<BoxCollider2D>().enabled = true;
             GetComponent<CapsuleCollider2D>().enabled = true;
         }
         else
         {
-
+            animator.SetBool("IsMoving", false);
+            tr.emitting = true;
             dashCount -= Time.deltaTime;
             Debug.Log(dashCount);
             rb.MovePosition(rb.position + dashDirection * 30 * Mathf.Cos((timeDash-dashCount)/timeDash*Mathf.PI/2) * Time.fixedDeltaTime);
@@ -80,7 +85,8 @@ public class Player : MonoBehaviour
             reverse = 1f;
         }
 
-        if (movementInput != Vector2.zero)
+
+        if (movementInput != Vector2.zero && !DashCheck)
         {
             animator.SetBool("IsMoving", true);
         }
@@ -182,6 +188,7 @@ public class Player : MonoBehaviour
     }
     public void Dash()
     {
+        DashCheck = true;
         dashDirection = LocalshooTing;
         transform.GetChild(3).GetComponent<BoxCollider2D>().enabled = false;
         GetComponent<CapsuleCollider2D>().enabled = false;
