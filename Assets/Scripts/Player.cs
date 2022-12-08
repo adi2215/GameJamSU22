@@ -56,14 +56,16 @@ public class Player : MonoBehaviour
     {
         if (dashCount <= 0)
         {
+            gameObject.layer = LayerMask.NameToLayer("Default");
             DashCheck = false;
             tr.emitting = false;
             ProcessInputs();
             GameObject.Find("HitBox").GetComponent<BoxCollider2D>().enabled = true;
-            GetComponent<CapsuleCollider2D>().enabled = true;
+            //GetComponent<CapsuleCollider2D>().enabled = true;
         }
         else
         {
+            gameObject.layer = LayerMask.NameToLayer("Dash");
             animator.SetBool("IsMoving", false);
             tr.emitting = true;
             dashCount -= Time.deltaTime;
@@ -191,7 +193,7 @@ public class Player : MonoBehaviour
         DashCheck = true;
         dashDirection = LocalshooTing;
         transform.GetChild(3).GetComponent<BoxCollider2D>().enabled = false;
-        GetComponent<CapsuleCollider2D>().enabled = false;
+        //GetComponent<CapsuleCollider2D>().enabled = false;
         dashCount = timeDash;
         //gameObject.GetComponent<Rigidbody2D>().AddForce(LocalshooTing * 10, ForceMode2D.s );
         //gameObject.GetComponent<Rigidbody2D>().AddForce(LocalshooTing * 10, ForceMode2D.Force);
