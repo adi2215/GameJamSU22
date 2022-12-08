@@ -665,6 +665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4764218412969926078, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_Name
+      value: BossHealthBar
+      objectReference: {fileID: 0}
     - target: {fileID: 5574898620377849494, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

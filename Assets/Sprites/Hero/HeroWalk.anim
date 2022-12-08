@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1053040503, guid: d067528ca0578714598ca6455dc1eb28, type: 3}
+      value: {fileID: 1178554848, guid: 2dbbb22fadb6de2418baa7f7129aa448, type: 3}
     - time: 0.06666667
       value: {fileID: 621125721, guid: 9b584b31800b3ce4bbdad85eae3cdb5e, type: 3}
     - time: 0.13333334
@@ -56,7 +56,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1053040503, guid: d067528ca0578714598ca6455dc1eb28, type: 3}
+    - {fileID: 1178554848, guid: 2dbbb22fadb6de2418baa7f7129aa448, type: 3}
     - {fileID: 621125721, guid: 9b584b31800b3ce4bbdad85eae3cdb5e, type: 3}
     - {fileID: 819983066, guid: 5c847c78a0482c54487b059de922be35, type: 3}
     - {fileID: 1178554848, guid: 2dbbb22fadb6de2418baa7f7129aa448, type: 3}
