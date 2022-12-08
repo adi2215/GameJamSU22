@@ -9,10 +9,16 @@ public class MousePosition : MonoBehaviour
     [SerializeField] private bool cameraPositionWithMouse;
     private GameObject button;
 
+    [SerializeField] private Texture2D cursorTexture;
+
+    private Vector2 cursorHotSpot;
+
     private Vector3 mouseWorldPosition;
 
     private void Start()
     {
+        cursorHotSpot = new Vector2(cursorTexture.width / 2, cursorTexture.height / 2);
+        Cursor.SetCursor(cursorTexture, cursorHotSpot, CursorMode.Auto);
         Cursor.lockState = CursorLockMode.Confined;
         mainCamera.Setup(GetCameraPosition);
     }
