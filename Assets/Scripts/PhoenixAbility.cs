@@ -6,24 +6,31 @@ public class PhoenixAbility : MonoBehaviour
 {
     // Start is called before the first frame update
     float cool = 0;
-    public float cooldown = 20f;
+    public float cooldown = 10f;
     public GameObject Particle;
     GameObject Target;
+    public GameObject Button;
     void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player");
+        if (Button == null)
+        {
+            Button = GameObject.Find("E");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        Button.GetComponent<EControl>().SetState((int)Mathf.Floor(Mathf.Min(cooldown, cooldown - cool) *3f / cooldown));
+        //Debug.Log(cool.ToString() + "   " + (Mathf.Min(20f, 20f - cool) * 3f / 20).ToString());
         if (Target.transform.position.x < transform.position.x)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         cool -= Time.deltaTime;
         if (cool < 0 && Input.GetKeyDown(KeyCode.E))

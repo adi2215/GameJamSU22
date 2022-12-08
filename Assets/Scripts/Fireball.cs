@@ -17,7 +17,7 @@ public class Fireball : MonoBehaviour
             //GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255f);
 
             GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, Time.deltaTime);
-            Debug.Log(GetComponent<SpriteRenderer>().color.a);
+            //Debug.Log(GetComponent<SpriteRenderer>().color.a);
         }
     }
     IEnumerator Decay()

@@ -64,10 +64,10 @@ public class Jeztyrnaq : MonoBehaviour
 
         if (health > 0)
         {
-            Anim.SetBool("IsAttack", true);
-            yield return new WaitForSeconds(1f);
             Vector3 pos = transform.position;
             Vector3 goal = Vector3.Normalize(Target.transform.position - pos) * 2;
+            Anim.SetBool("IsAttack", true);
+            yield return new WaitForSeconds(0.5f);
             for (int i = 0; i < 20; ++i)
             {
                 pos += goal;
@@ -77,6 +77,7 @@ public class Jeztyrnaq : MonoBehaviour
             }
         }
         Anim.SetBool("IsAttack", false);
+
     }
     void Teleport()
     {
@@ -84,7 +85,7 @@ public class Jeztyrnaq : MonoBehaviour
         {
             lastTime = Time.timeSinceLevelLoad;
             var angle = Random.Range(0, 2 * Mathf.PI);
-            var len = Random.Range(10, 10);
+            var len = Random.Range(7, 10);
             transform.position = Target.transform.position + new Vector3(Mathf.Sin(angle), Mathf.Cos(angle), 0) * len;
             Invoke(nameof(SummonSpikes), 2);
             StartCoroutine(SummonShockwaves());

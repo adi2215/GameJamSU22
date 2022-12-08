@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 333469896378416847, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3113836369798441015, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
       propertyPath: m_Size.x
@@ -224,6 +224,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+--- !u!1 &69890270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3728010513832059062, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+  m_PrefabInstance: {fileID: 540957190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &69890271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69890270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8096beaef73d94557bba7be843a8cbe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: []
 --- !u!1 &138224287
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +389,26 @@ PrefabInstance:
     - target: {fileID: 5641064459525112474, guid: f4ba64597000444da981e4385659a4f9, type: 3}
       propertyPath: m_Name
       value: Phoenix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584750349580883056, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721019626383954309, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721019626383954309, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7647058
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721019626383954309, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.403361
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721019626383954309, guid: f4ba64597000444da981e4385659a4f9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6125061107201099869, guid: f4ba64597000444da981e4385659a4f9, type: 3}
@@ -711,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2827126794181845698, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3255686785705510318, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_IsActive
@@ -748,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 8687430034449225734, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_MaxValue
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937682088250061114, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
