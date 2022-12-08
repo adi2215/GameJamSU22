@@ -7,6 +7,7 @@ public class Fireball : MonoBehaviour
     bool decay = false;
     void Start()
     {
+        GetComponent<Animator>().SetBool("IsCollide", false);
         GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1f);
         StartCoroutine(Decay());
     }
@@ -29,10 +30,14 @@ public class Fireball : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Enemy"))
+        if (col.CompareTag("Enemy") || col.CompareTag("Ghost"))
         {
+
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-            Destroy(gameObject);
+            GetComponent<CircleCollider2D>().enabled = false;
+            decay = true;
+            GetComponent<Animator>().SetBool("IsCollide", true);
+            Destroy(gameObject, 1f/60f*15f);
         }
     }
 }

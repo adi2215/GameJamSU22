@@ -22,7 +22,8 @@ public class hitBox : MonoBehaviour
         {
             health.currentHealh -= 1;
             healthBar.SetHealth(health.currentHealh);
-            timer = 1;
+            timer = 1.5f;
+            transform.parent.GetComponent<Animator>().SetTrigger("IsDamage");
         }
         
     }
