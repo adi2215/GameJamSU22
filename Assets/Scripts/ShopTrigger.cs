@@ -15,7 +15,7 @@ public class ShopTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
+        if (Input.GetKeyDown(KeyCode.Q) && playerInRange)
         {
             if (dialogbox.activeInHierarchy)
             {

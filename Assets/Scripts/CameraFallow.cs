@@ -14,6 +14,8 @@ public class CameraFallow : MonoBehaviour
     public Vector2 minPos;
     private Vector3 targetPos;
 
+    private Data ret;
+
     private Func<Vector3> GetCameraFollowPositionFunc;
 
     public void Setup(Func<Vector3> GetCameraFollowPositionFunc) {

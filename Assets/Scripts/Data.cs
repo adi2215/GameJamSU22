@@ -22,6 +22,7 @@ public class Data : ScriptableObject
 
     public Vector3 pos;
 
+
     public Vector3 posCamera;
 
     public bool StarEnd = false;

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class TriggerFinaleScene : MonoBehaviour
+public class Buttonsf : MonoBehaviour
 {
-    void Start()
+    public void Menu()
     {
-        SceneManager.LoadScene("SampleScene 5");
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -7,6 +7,7 @@ public class Erlik : MonoBehaviour
 {
     public GameObject Target;
     public GameObject Wall;
+    public GameObject Camera;
     public GameObject Iceball;
     public GameObject Mob;
     public GameObject HealthBar;
@@ -15,6 +16,8 @@ public class Erlik : MonoBehaviour
     public Data have;
     void Start()
     {
+        
+        Camera.GetComponent<Camera>().orthographicSize = 11f;
         HealthBar.GetComponent<HealthBar>().SetMaxHealth(health);
         Target = GameObject.FindGameObjectWithTag("Player");
         //Shoot();
@@ -45,6 +48,9 @@ public class Erlik : MonoBehaviour
     }
     void Die()
     {
+        
+        have.posCamera = Camera.transform.position;
+        have.pos = Target.transform.position;
         have.morg = true;
         SceneManager.LoadScene("SampleScene");
         Destroy(gameObject);

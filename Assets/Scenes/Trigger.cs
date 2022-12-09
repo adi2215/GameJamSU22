@@ -19,6 +19,7 @@ public class Trigger : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
+            boss.Progress = 2;
             boss.trigger1 = true;
             SceneManager.LoadScene("SampleScene 2");
         }

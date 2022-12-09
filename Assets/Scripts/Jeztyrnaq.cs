@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Jeztyrnaq : MonoBehaviour
 {
     public GameObject Target;
+    public GameObject Camera;
     public GameObject Spike;
     public GameObject Shockwave;
     public GameObject SpikeFolder;
@@ -19,6 +20,7 @@ public class Jeztyrnaq : MonoBehaviour
     Animator Anim;
     private void Start()
     {
+        Camera.GetComponent<Camera>().orthographicSize = 11f;
         Target = GameObject.FindGameObjectWithTag("Player");
         SpikeFolder = GameObject.Find("SpikeFolder");
         if (HealthBar == null)
@@ -28,6 +30,13 @@ public class Jeztyrnaq : MonoBehaviour
     }
     private void Update()
     {
+        if (health <= 0)
+            {
+                SceneManager.LoadScene("SampleScene");
+                claw.pos = Target.transform.position;
+                claw.claw = true;
+                Destroy(gameObject);
+            }
         HealthBar.GetComponent<HealthBar>().SetHealth(health);
         if (Target.transform.position.x < transform.position.x)
         {
@@ -108,8 +117,10 @@ public class Jeztyrnaq : MonoBehaviour
                 child.gameObject.GetComponent<SpikeControl>().decay = 1f;
             }
             circles = 0;
-            if (health == 0)
+            if (health <= 0)
             {
+                claw.posCamera = Camera.transform.position;
+                claw.pos = Target.transform.position;
                 claw.claw = true;
                 SceneManager.LoadScene("SampleScene");
                 Destroy(gameObject);

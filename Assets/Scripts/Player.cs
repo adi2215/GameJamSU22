@@ -141,19 +141,19 @@ public class Player : MonoBehaviour
                 Dash();
             } else
             {
-                if (Input.GetKeyDown(KeyCode.Alpha1) && db.Potion1 > -10)
+                if (Input.GetKeyDown(KeyCode.Alpha1) && db.Potion1 > 0)
                 {
                     db.Potion1 -= 1;
                     db.currentHealh = db.maxHealth;
                     Debug.Log("HEAL" + db.currentHealh.ToString());
                 }
-                if (Input.GetKeyDown(KeyCode.Alpha2) && db.Potion2 > -10)
+                if (Input.GetKeyDown(KeyCode.Alpha2) && db.Potion2 > 0)
                 {
                     db.Potion2 -= 1;
                     ultSpeedTimer = 5f;
                     //db.currentHealh = db.maxHealth;
                 }
-                if (Input.GetKeyDown(KeyCode.Alpha3) && db.Potion3 > -10)
+                if (Input.GetKeyDown(KeyCode.Alpha3) && db.Potion3 > 0)
                 {
                     db.Potion3 -= 1;
                     ultShootTimer = 5f;
@@ -196,9 +196,10 @@ public class Player : MonoBehaviour
 
         if (collision.tag == "Star")
         {
+            db.Progress = 3;
             collision.gameObject.SetActive(false);
             Star = true;
-            db.StarEnd = true;
+            db.StarEnd = Star;
         }
     }
 

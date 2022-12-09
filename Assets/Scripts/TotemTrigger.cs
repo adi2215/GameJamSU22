@@ -16,9 +16,9 @@ public class TotemTrigger: MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange && StarTrig.StarEnd)
+        if (Input.GetKeyDown(KeyCode.Q) && playerInRange && StarTrig.StarEnd)
         {
-            SceneManager.LoadScene("End");
+            SceneManager.LoadScene("SampleScene 4");
         }
     }
     
