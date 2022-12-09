@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5982308753254366647}
   m_Layer: 0
   m_Name: Erlik
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,9 @@ MonoBehaviour:
   Wall: {fileID: 550257585377736238, guid: df567d175dc284f08ab0b8c2ab5a33bc, type: 3}
   Iceball: {fileID: 7139247482606219717, guid: d56830c12b5e240758505346e0dcd08f, type: 3}
   Mob: {fileID: 3400781921223783594, guid: ce88ae47bf090435f8f64547c8fbd12f, type: 3}
+  HealthBar: {fileID: 0}
   health: 50
+  have: {fileID: 0}
 --- !u!50 &5495829221624758909
 Rigidbody2D:
   serializedVersion: 4

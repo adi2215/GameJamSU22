@@ -12,7 +12,7 @@ public class BasicFollowing : MonoBehaviour
     }
     private void Update()
     {
-        if (Vector3.Distance(transform.position, Target.transform.position) < 20) {
+        if (Vector3.Distance(transform.position, Target.transform.position) < 40) {
             //GetComponent<Rigidbody2D>().MovePosition(transform.position + Vector3.Normalize(Target.transform.position - transform.position) * (Time.deltaTime * 15));
             transform.position += (Target.transform.position - transform.position) * (Time.deltaTime* 0.7f);
             if (Target.transform.position.x < transform.position.x)

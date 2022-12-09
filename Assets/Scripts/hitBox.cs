@@ -52,17 +52,18 @@ public class hitBox : MonoBehaviour
             timer -= Time.deltaTime;
         }
 
-        if (health.currentHealh <= 0 && die)
-        {
-            Die();
-        }
+        //if (health.currentHealh <= 0 && die)
+        //{
+        //    Die();
+        //}
         
     }
 
     private void Die()
     {
-        die = true;
-        Font.SetActive(true);
-        rb.bodyType = RigidbodyType2D.Static;
+        //DeathScreen.SetActive(true);
+        //die = true;
+        //Font.SetActive(true);
+        //rb.bodyType = RigidbodyType2D.Static;
     }
 }
