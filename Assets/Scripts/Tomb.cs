@@ -23,7 +23,7 @@ public class Tomb : MonoBehaviour
         // {
         //     active = true;
         // }
-        if (Vector3.Distance(transform.position, Target.transform.position) < 20)
+        if (Vector3.Distance(transform.position, Target.transform.position) < 15)
         {
             if (cool < 0 && capacity > 0 && transform.childCount == 0)
             {
