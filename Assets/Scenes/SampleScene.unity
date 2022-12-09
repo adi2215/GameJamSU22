@@ -6989,6 +6989,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 762102702412693713, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 861799203802388411, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -9033,6 +9037,8 @@ GameObject:
   m_Component:
   - component: {fileID: 584787210}
   - component: {fileID: 584787209}
+  - component: {fileID: 584787212}
+  - component: {fileID: 584787211}
   m_Layer: 0
   m_Name: Vilager
   m_TagString: Untagged
@@ -9107,6 +9113,34 @@ Transform:
   m_Father: {fileID: 521575479}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584787211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584787208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246c2917dc65dd0438bf0558d650e4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &584787212
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584787208}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.4694884, y: 0.32525253}
+  m_Size: {x: 9.139079, y: 1.1445549}
+  m_Direction: 1
 --- !u!1 &591762683
 GameObject:
   m_ObjectHideFlags: 0
@@ -28001,6 +28035,7 @@ GameObject:
   - component: {fileID: 2066563950}
   - component: {fileID: 2066563949}
   - component: {fileID: 2066563948}
+  - component: {fileID: 2066563952}
   m_Layer: 0
   m_Name: totem_of_sun1_0
   m_TagString: Untagged
@@ -28107,6 +28142,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2066563952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066563947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24df72132fe11fa4aa05c6b51e56bfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contextOn: {fileID: 11400000, guid: daa57835fa427e84ea78908509bc870f, type: 2}
+  contextOff: {fileID: 11400000, guid: c4884e58bb4563b47b8177b9092c69df, type: 2}
+  playerInRange: 0
+  StarTrig: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
 --- !u!1 &2075965279
 GameObject:
   m_ObjectHideFlags: 0
