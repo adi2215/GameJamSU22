@@ -9332,7 +9332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &584787209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9421,6 +9421,7 @@ MonoBehaviour:
   contButton: {fileID: 0}
   contextOn: {fileID: 0}
   contextOff: {fileID: 0}
+  ret: 0
 --- !u!70 &584787212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
