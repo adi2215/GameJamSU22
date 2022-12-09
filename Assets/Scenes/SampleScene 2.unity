@@ -1102,6 +1102,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
     - target: {fileID: 5154580592051788590, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 519420028}
+    - target: {fileID: 5154580592051788590, guid: 66ac552c78b884ef98f68220bfe05a5a, type: 3}
       propertyPath: Target
       value: 
       objectReference: {fileID: 300144133}
@@ -4739,11 +4743,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8687430034449225734, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8687430034449225734, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_MaxValue
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687430034449225734, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9045161457425786432, guid: ee451f714bb03d440a9b73e4b7d429d8, type: 3}
       propertyPath: m_fontStyle

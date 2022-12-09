@@ -9255,6 +9255,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 246c2917dc65dd0438bf0558d650e4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prog: {fileID: 0}
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  diaoluge: []
+  wordSpeed: 0
+  playerInClose: 0
+  contButton: {fileID: 0}
+  contextOn: {fileID: 0}
+  contextOff: {fileID: 0}
+  ret: 0
 --- !u!70 &584787212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -16386,6 +16396,10 @@ PrefabInstance:
       propertyPath: have
       value: 
       objectReference: {fileID: 11400000, guid: cf603b834c47f374eb9623a845d2f8d4, type: 2}
+    - target: {fileID: 8780983989879189011, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 8780983989879189011, guid: a050b8d06cb934a10bc032ff771ed9ed, type: 3}
       propertyPath: Target
       value: 
